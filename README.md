@@ -1,7 +1,5 @@
 # User Management System
-
-This Python module provides basic functionalities for user registration, login, and password management. All passwords are encrypted using the SHA-256 algorithm to enhance security. The main features include user registration, user login, password encryption, and retrieval of encrypted passwords.
-
+[![Chinese Version](https://img.shields.io/badge/-中文版-blue)](https://github.com/tudohuang/csvIO/blob/main/README-ch.md)
 ## Features
 
 - **Password Encryption**: Encrypts passwords using the SHA-256 algorithm.
