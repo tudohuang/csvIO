@@ -31,7 +31,14 @@
 
 ## Installation Requirements
 
-This module requires Python 3.6 or higher. External libraries used include:
-- `csv`: For reading and writing CSV files.
-- `hashlib`: For SHA-256 password encryption.
-- `os`: To check if files exist.
+This module requires Python 3.6 or higher. Using the following command to get the module
+```fix
+pip install git+https://github.com/tudohuang/csvIO.git
+```
+```python
+import csvIO
+encrypted_password = csvIO.crypto("your_password")
+success = csvIO.register("path_to_your_csv.csv", "username", "password")
+is_logged_in = csvIO.login("path_to_your_csv.csv", "username", "password")
+password = csvIO.get_password("path_to_your_csv.csv", "username")
+```
