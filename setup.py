@@ -10,9 +10,6 @@ setup(
     author='TudoHuang',
     author_email='tudohuang@gmail.com',
     url='https://github.com/tudohuang/csvIO',
-    install_requires=[
-        'hashlib',  
-    ],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
